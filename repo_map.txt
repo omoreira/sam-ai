@@ -1,0 +1,37 @@
+sam-ai/
+├── .github/
+│   ├── ISSUE_TEMPLATE/
+│   │   ├── bug_report.md
+│   │   └── feature_request.md
+│   └── workflows/
+│       └── python-test.yml          # CI/CD (e.g., run tests on push)
+├── docs/
+│   ├── ARCHITECTURE.md
+│   ├── CONTRIBUTING.md
+│   └── SETUP.md
+├── src/
+│   └── sam_ai/                      # Main Python package
+│       ├── core/
+│       │   ├── __init__.py
+│       │   ├── engine.py            # Main orchestration logic
+│       │   └── memory_manager.py    # Handles conversation history & context
+│       ├── providers/
+│       │   ├── __init__.py
+│       │   ├── base_provider.py     # Abstract base class
+│       │   ├── ollama_provider.py   # Local Ollama integration
+│       │   └── openai_provider.py   # OpenAI API integration
+│       ├── tools/
+│       │   ├── __init__.py
+│       │   └── example_tools.py     # e.g., calculator, file reader
+│       ├── __init__.py
+│       └── config.py                # Loads settings
+├── tests/                           # Unit and integration tests
+├── prototypes/
+│   └── streamlit_app.py             # Phase 2: Streamlit UI prototype
+├── scripts/
+│   └── install_ollama.py            # Helper script for users
+├── .gitignore
+├── LICENSE                          # Highly recommend AGPL-3.0
+├── pyproject.toml                   # Modern Python packaging config
+├── README.md                        # The front page of your repo
+└── requirements.txt                 # Python dependencies
