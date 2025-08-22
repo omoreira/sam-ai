@@ -2,7 +2,7 @@
 Tool system for Sam AI's agent mode.
 """
 
-from .example_tools import calculator, get_current_time, read_file
+from src.sam_ai.tools.example_tools import calculator, get_current_time, read_file
 
 # Registry of available tools
 TOOL_REGISTRY = {

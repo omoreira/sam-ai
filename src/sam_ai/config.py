@@ -1,15 +1,13 @@
-# This is a critical module. We'll use Pydantic for data validation and settings management, which is the modern standard. It will handle loading settings from environment variables and a .env file, with a focus on security for API keys.
-
 """
 Configuration management for Sam AI using Pydantic settings.
 Handles loading settings from environment variables and a .env file securely.
 """
-
 import os
 from typing import Literal, Optional
 from pathlib import Path
 
-from pydantic import BaseSettings, Field, validator
+from pydantic import Field, validator
+from pydantic_settings import BaseSettings
 from pydantic.types import SecretStr
 import keyring
 

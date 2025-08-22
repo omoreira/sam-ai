@@ -1,16 +1,22 @@
 """
 Streamlit prototype UI for Sam AI.
+
+This program provides a web-based interface for interacting with the Sam AI personal assistant.
+It allows users to select an AI provider (Ollama or OpenAI), choose models, switch between chat and agent modes,
+and manage conversation history. The app uses Streamlit for the UI and communicates with the Sam AI backend
+via the Orchestrator class. It is intended for prototyping and testing the assistant's capabilities.
 """
 
 import streamlit as st
-import time
+
+# Clean imports - no sys.path modifications here
 from src.sam_ai.core.engine import Orchestrator
 from src.sam_ai.config import settings, load_config
 
 # Page configuration
 st.set_page_config(
     page_title="Sam AI - Prototype",
-    page_icon="🤖",
+    page_icon="S",  # Using a simple icon for the prototype 
     layout="wide",
     initial_sidebar_state="expanded"
 )
@@ -36,7 +42,7 @@ def clear_chat():
     st.rerun()
 
 # App title and description
-st.title("🤖 Sam AI - Prototype")
+st.title("Sam AI - Prototype")
 st.markdown("""
 A modular, portable, and trauma-informed AI personal assistant.
 *Currently in development - this is a prototype UI.*
@@ -44,7 +50,7 @@ A modular, portable, and trauma-informed AI personal assistant.
 
 # Sidebar for configuration
 with st.sidebar:
-    st.header("⚙️ Configuration")
+    st.header("Configuration")
     
     # Provider selection
     provider = st.selectbox(
@@ -92,7 +98,7 @@ with st.sidebar:
                 st.error(f"Error updating API key: {e}")
     
     # Clear chat button
-    if st.button("🗑️ Clear Chat", use_container_width=True):
+    if st.button("Clear Chat", use_container_width=True):
         clear_chat()
     
     st.divider()
@@ -127,7 +133,7 @@ if prompt := st.chat_input("What would you like to talk about?"):
             full_response = response
             
         except Exception as e:
-            full_response = f"❌ Error: {str(e)}\n\nPlease check your configuration and ensure Ollama is running if using local models."
+            full_response = f"Error: {str(e)}\n\nPlease check your configuration and ensure Ollama is running if using local models."
         
         # Display the response
         message_placeholder.markdown(full_response)

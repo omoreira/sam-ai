@@ -26,12 +26,18 @@ sam-ai/
 │       ├── __init__.py
 │       └── config.py                # Loads settings
 ├── tests/                           # Unit and integration tests
+│   ├── __init__.py
+│   ├── test_providers.py
+│   └── test_engine.py
 ├── prototypes/
 │   └── streamlit_app.py             # Phase 2: Streamlit UI prototype
 ├── scripts/
 │   └── install_ollama.py            # Helper script for users
 ├── .gitignore
-├── LICENSE                          # Highly recommend AGPL-3.0
+├── LICENSE                          # AGPL-3.0 License
 ├── pyproject.toml                   # Modern Python packaging config
 ├── README.md                        # The front page of your repo
-└── requirements.txt                 # Python dependencies
+├── requirements.txt                 # Python dependencies
+├── run_sam.py                       # Main application launcher
+├── test_sam.py                      # Quick setup verification
+└── debug_imports.py                 # Detailed import diagnostics
