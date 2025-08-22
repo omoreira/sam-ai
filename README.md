@@ -3,6 +3,8 @@
 <p align="center">
   <img src="assets/SamAIlogo.png" alt="Sam AI Logo" width="100"/>
 </p>
+**Smart. Soft. Structured.**
+*Trauma-aware. Thoughtfully modular.*
 
 A Modular, Portable, and Trauma-Informed AI Personal Assistant.
 
