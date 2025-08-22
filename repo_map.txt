@@ -1,4 +1,6 @@
 sam-ai/
+├── assets/
+│   └── SamAIlogo.png
 ├── .github/
 │   ├── ISSUE_TEMPLATE/
 │   │   ├── bug_report.md
@@ -9,6 +11,7 @@ sam-ai/
 │   ├── ARCHITECTURE.md
 │   ├── CONTRIBUTING.md
 │   └── SETUP.md
+│   └── UTILS.md
 ├── src/
 │   └── sam_ai/                      # Main Python package
 │       ├── core/

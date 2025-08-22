@@ -14,7 +14,29 @@ lib/
 lib64/
 parts/
 sdist/
-var/
+var/# Private data directories (for future use)
+.sam_ai_private/
+personal_data/
+
+# Environment specific files
+.env
+.venv
+venv/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+logs/
+tmp/
 wheels/
 pip-wheel-metadata/
 share/python-wheels/
@@ -99,3 +121,9 @@ Thumbs.db
 *.log
 logs/
 tmp/
+
+# Large assets (but keep your actual logo!)
+assets/*.psd
+assets/*.ai
+assets/*.xd
+assets/backups/
