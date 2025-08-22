@@ -5,7 +5,10 @@
 </p>
 
 A Modular, Portable, and Trauma-Informed AI Personal Assistant.
+<<<<<<< HEAD
 
+=======
+>>>>>>> 59a69730eb9fb0c1cfce71d9763d49c51c11b4e3
 Named in loving memory of Sam Lee Catson (2007-2022).
 
 ## In Memoriam: Sam Lee Catson
