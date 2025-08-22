@@ -1,7 +1,12 @@
 # Sam AI
 
+<p align="center">
+  <img src="assets/SamAIlogo.png" alt="Sam AI Logo" width="100"/>
+</p>
+
 A Modular, Portable, and Trauma-Informed AI Personal Assistant.
-Named in loving memory of Sam Lee Catson (2008-2022).
+
+Named in loving memory of Sam Lee Catson (2007-2022).
 
 ## In Memoriam: Sam Lee Catson
 
@@ -24,6 +29,7 @@ Named in loving memory of Sam Lee Catson (2008-2022).
 > *"Don't worry, kitty! We will come back for you. We will always will!"*
 
 See you in Valhalla,
+
 Olga M.
 
 ---

@@ -12,6 +12,9 @@ import streamlit as st
 # Clean imports - no sys.path modifications here
 from src.sam_ai.core.engine import Orchestrator
 from src.sam_ai.config import settings, load_config
+from pathlib import Path
+
+LOGO_PATH = Path(__file__).parent.parent / "assets" / "SamAIlogo.png"
 
 # Page configuration
 st.set_page_config(
@@ -50,6 +53,9 @@ A modular, portable, and trauma-informed AI personal assistant.
 
 # Sidebar for configuration
 with st.sidebar:
+    if LOGO_PATH.exists():
+        #st.image(str(LOGO_PATH), use_container_width=True)  # ← Fixed parameter
+        st.image(str(LOGO_PATH), width=180, use_container_width=False)
     st.header("Configuration")
     
     # Provider selection
