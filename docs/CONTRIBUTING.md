@@ -10,7 +10,7 @@ By participating in this project, you are expected to uphold our Code of Conduct
 
 ## How Can I Contribute?
 
-### 🐛 Reporting Bugs
+### Reporting Bugs
 Bugs are tracked as [GitHub issues](https://github.com/your-username/sam-ai/issues).
 
 **Before submitting a bug report:**
@@ -24,13 +24,13 @@ Bugs are tracked as [GitHub issues](https://github.com/your-username/sam-ai/issu
 *   Include details about your environment: OS, Python version, Ollama version, etc.
 *   If possible, include relevant logs or error messages.
 
-### 💡 Suggesting Enhancements
+### Suggesting Enhancements
 We welcome suggestions for new features or improvements! Please create an issue and:
 *   Use a clear and descriptive title.
 *   Provide a detailed description of the proposed feature.
 *   Explain why this enhancement would be useful to most Sam AI users.
 
-### 🛠️ Pull Requests (Code Contributions)
+### Pull Requests (Code Contributions)
 We love pull requests. Here's a quick guide:
 
 1.  **Fork the repo** and create your branch from `main`. Use a descriptive branch name (e.g., `fix/ollama-connection-error`, `feat/add-anthropic-provider`).
@@ -43,7 +43,7 @@ We love pull requests. Here's a quick guide:
 5.  **Push to your fork** and [submit a pull request](https://github.com/your-username/sam-ai/compare) to our `main` branch.
 6.  **Discuss and review:** We may ask you to make changes. This is a normal part of the process.
 
-### 🔧 Development Setup
+### Development Setup
 Please see the detailed instructions in [`SETUP.md`](./SETUP.md).
 
 ## Project Philosophy & Priorities
