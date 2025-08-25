@@ -5,30 +5,6 @@ This document provides a high-level overview of the Sam AI system architecture, 
 ## High-Level Architecture
 
 Sam AI follows a modular, client-server design pattern, even when running on a single machine. The core principle is a clear separation of concerns between the user interface, the application logic, the AI providers, and the tools.
-+-------------------+ +---------------------------------------+
-| Client (UI) |<----->| Sam AI Core |
-| (Streamlit, | | (Orchestrator, Memory, Config) |
-| Desktop, Mobile)| +---------------------------------------+
-+-------------------+ | |
-| +---------------+ +---------------+ |
-| | Provider | | Tool Registry | |
-| | Abstraction | | & Executor | |
-| | Layer | | | |
-| +---------------+ +---------------+ |
-| | | |
-| v v |
-| +----------------+ +--------------+ |
-| | AI Providers | | Tools | |
-| | (Ollama, OpenAI)| | (Functions) | |
-| +----------------+ +--------------+ |
-+---------------------------------------+
-| |
-v v
-+--------------+ +----------------+
-| Local Ollama | | User's System |
-| Service | | & APIs |
-+--------------+ +----------------+
-
 
 ## Core Components
 
