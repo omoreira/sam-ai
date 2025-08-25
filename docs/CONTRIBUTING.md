@@ -66,6 +66,9 @@ Please see the detailed instructions in [`SETUP.md`](./SETUP.md).
 *   Strive for clear, descriptive variable and function names.
 *   Use type hints where practical to improve code clarity.
 
+© 2025 Olga Moreira, PhD. All rights reserved.
+
+
 ### Documentation Styleguide
 *   Use Markdown.
 *   Keep lines at a reasonable length (~80-100 characters).
