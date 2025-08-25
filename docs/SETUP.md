@@ -26,12 +26,13 @@ This guide will help you set up a local development environment for Sam AI on yo
 ## Step 1: Get the Source Code
 
 1.  **Fork the repository** on GitHub by clicking the "Fork" button at the top right of the [sam-ai repo page](https://github.com/your-username/sam-ai).
-2.  **Clone your fork** to your local machine:
+
+3.  **Clone your fork** to your local machine:
     ```bash
     git clone https://github.com/your-username/sam-ai.git
     cd sam-ai
     ```
-3.  **(Optional) Add the upstream remote** to sync with the main project:
+4.  **(Optional) Add the upstream remote** to sync with the main project:
     ```bash
     git remote add upstream https://github.com/original-username/sam-ai.git
     ```
@@ -53,72 +54,79 @@ source venv/bin/activate
 .\venv\Scripts\Activate.ps1
 
 # Your terminal prompt should now show (venv)
-
+```
 ## Step 3: Install Dependencies
 
 Install the required Python packages from the 'requirements.txt' file.
-bash
+```bash
 # Make sure your venv is active first!
 pip install -r requirements.txt
 
 # For development, also install packages for testing and formatting
 pip install black isort pytest
-
+```
 ## Step 4: Install in Development Mode
 Install the sam_ai package itself in "editable" mode. This allows you to make changes to the code without having to reinstall it.
 
-bash
+```bash
 pip install -e .
-Step 5: Verify Your Setup
+```
+## Step 5: Verify Your Setup
 Test the Core: Run a simple Python check to see if you can import the main modules.
 
-bash
+```bash
 python3 -c "from src.sam_ai.core.engine import Orchestrator; print('✓ Core import successful')"
 python3 -c "from src.sam_ai.providers.ollama_provider import OllamaProvider; print('✓ Provider import successful')"
+```
 Test Ollama Connection: Run a quick test to see if Python can talk to Ollama.
 
-bash
+```bash
 python3 -c "
 from src.sam_ai.providers.ollama_provider import OllamaProvider
 provider = OllamaProvider()
 models = provider.list_models()
 print(f'Models found: {models}')
 "
+```
 You should see ['phi3'] or a similar list.
 
 Run the Streamlit Prototype:
 
-bash
+```bash
 streamlit run prototypes/streamlit_app.py
+```
 A browser window should open. Try sending a message!
 
-(Optional) Step 6: Testing Cloud Providers
+## (Optional) Step 6: Testing Cloud Providers
 To test the OpenAI provider, you need an API key.
 
 Get a key from platform.openai.com.
 
 Do not hardcode it! Set it as an environment variable in your terminal session:
 
-bash
+```bash
 export OPENAI_API_KEY='sk-your-key-here'  # Linux/macOS
 # or
 set OPENAI_API_KEY=sk-your-key-here       # Windows CMD
 $env:OPENAI_API_KEY='sk-your-key-here'    # Windows PowerShell
+```
 The Streamlit app should now be able to use the OpenAI provider when selected.
 
 Running Tests
 To ensure your changes don't break existing functionality, run the test suite.
 
-bash
+```bash
 # Navigate to the project root and run:
 python -m pytest
+```
 Code Formatting
 Please format your code before committing:
 
-bash
-
+```bash
 black .   # Formats code
 isort .   # Sorts imports
-
+```
 You're now ready to develop and contribute to Sam AI!
+
+© 2025 Olga Moreira, PhD. All rights reserved.
 
