@@ -4,42 +4,32 @@
   <img src="assets/SamAIlogo.png" alt="Sam AI Logo" width="100"/>
 </p>
 
-**Smart. Soft. Structured.**
+**Smart. Soft. Structured.**  
 *Trauma-aware. Thoughtfully modular.*
 
-A Modular, Portable, and Trauma-Informed AI Personal Assistant.
-
-Named in loving memory of Sam Lee Catson (2007-2022).
-
-## In Memoriam: Sam Lee Catson
-
-**Date:** May 4, 2022
-
-> Goodbye, Sam! We will miss you immensely.
->
-> Thank you for staying with us for over 14 years! Thank you for all the happy moments we spent together!
->
-> To those who got to meet Sam in person, who knew Sam: You know that Sam wasn't an ordinary cat. He had a unique, strong personality. He was one of a kind.
->
-> Sam was fearless, smart, chatty, hyperactive, friendly and very sweet. He was a force of nature and a spoiled brat. He lived life to the fullest.
->
-> Sam was stubborn, never knew when to give up. Unfortunately, his body did. His genetics betrayed him. First, his kidneys. Then, his liver. Then, his heart. One by one, his organs began shutting down while his mind was forever present, awaken. We did everything we could. Dr. Boctor and his team at the St. Catharines Animal Hospital provided the best care, the best treatment. Sam fought as hard as he could, but nature always wins in the end.
->
-> Sam spent the last moments of his life at home with us. He passed away in our arms last night, knowing that we love him dearly.
->
-> Wherever you are, Sam. Remember (like we always told you whenever we had to go away for a while, whenever we had to leave you at the hospital):
->
-> *"Don't worry, kitty! We will come back for you. We will always will!"*
-
-See you in Valhalla,
-
-Olga M.
+A modular, portable, and trauma-informed AI personal assistant -- named in loving memory of OM’s cat companion, Sam Lee Catson (2007--2022).
 
 ---
 
- **Status: Early Development - Testing Phase**
+### 💡 Philosophy  
+Designed with an eco-conscious mindset, Sam AI prioritizes **local-first computation** to reduce dependence on energy-intensive cloud data centers. By running models directly on user devices and supporting low-resource modular modes, Sam AI minimizes environmental impact — unlike typical AI systems reliant on large-scale centralized infrastructure.
 
-> **Note:** This is currently in active testing. The next major release will include secure private data handling for personal context, mental health support, and career guidance modules. Use with caution in production environments.
+---
+
+### Status: Early Development (Testing Phase)
+
+!!!*This project is actively under development and currently in testing. Use caution in production environments.*!!!
+
+The current prototype uses **Streamlit** and serves as a foundational proof of concept. Ongoing development includes:
+
+- Lightweight **TUI** (text user interface) and **GUI** local builds
+- A more advanced, customizable web-based UI using **Python + FastAPI + React + TypeScript**
+
+Upcoming releases will include:
+- Secure, private data handling
+- Personal context management
+- Mental health scaffolding
+- Career support modules
 
 [![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
 [![Python Version](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/)
@@ -179,3 +169,27 @@ We welcome contributions! Please see our [Contributing Guidelines](./docs/CONTRI
 ## Bug Reports
 
 Found a bug? Please [open an issue](https://github.com/your-username/sam-ai/issues) with detailed information about the problem.
+
+## In Memoriam: Sam Lee Catson
+
+**Date:** May 4, 2022
+
+> Goodbye, Sam! We will miss you immensely.
+>
+> Thank you for staying with us for over 14 years! Thank you for all the happy moments we spent together!
+>
+> To those who got to meet Sam in person, who knew Sam: You know that Sam wasn't an ordinary cat. He had a unique, strong personality. He was one of a kind.
+>
+> Sam was fearless, smart, chatty, hyperactive, friendly and very sweet. He was a force of nature and a spoiled brat. He lived life to the fullest.
+>
+> Sam was stubborn, never knew when to give up. Unfortunately, his body did. His genetics betrayed him. First, his kidneys. Then, his liver. Then, his heart. One by one, his organs began shutting down while his mind was forever present, awaken. We did everything we could. Dr. Boctor and his team at the St. Catharines Animal Hospital provided the best care, the best treatment. Sam fought as hard as he could, but nature always wins in the end.
+>
+> Sam spent the last moments of his life at home with us. He passed away in our arms last night, knowing that we love him dearly.
+>
+> Wherever you are, Sam. Remember (like we always told you whenever we had to go away for a while, whenever we had to leave you at the hospital):
+>
+> *"Don't worry, kitty! We will come back for you. We will always will!"*
+
+See you in Valhalla,
+
+Olga M.
