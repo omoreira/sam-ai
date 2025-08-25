@@ -35,14 +35,16 @@ Upcoming releases will include:
 [![Python Version](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
-##  Current Status
--  Core AI engine with Ollama integration
--  Streamlit web interface prototype
--  Basic memory management
--  Multi-provider support (Ollama/OpenAI)
+## Current Status
+
+- Core AI engine with Ollama integration
+- **TUI (Text User Interface) and lightweight GUI** prototypes for local operation
+- Customizable web-based UI in development (**Python + FastAPI + React + TypeScript**)
+- Basic memory management
+- Multi-provider support (Ollama/OpenAI)
 - **Coming Soon:** Secure private data modules
 - **Coming Soon:** Mental health support tools
-- **Coming Soon:** Career and writing assistant features
+- **Coming Soon:** Career and writing assistant feature
 
 ## Features
 
@@ -141,10 +143,11 @@ python run_sam.py
 
 ## Project Roadmap
 
-- **Phase 1:** Core Engine & CLI
-- **Phase 2:** Streamlit UI Prototype (Current)
-- **Phase 3:** Robust Desktop App (In Progress)
-- **Phase 4:** Mobile Client & Advanced Integrations
+- **Phase 1:** Core Engine & CLI (Complete)
+- **Phase 2:** TUI and Lightweight GUI Interfaces (Current)
+- **Phase 3:** Customizable Web-Based UI (Python + FastAPI + React + TypeScript) (In Progress)
+- **Phase 4:** Robust Desktop App
+- **Phase 5:** Mobile Client & Advanced Integrations
 - **Future:** Secure private data modules, mental health support tools, career assistant features
 
 ## For Developers
