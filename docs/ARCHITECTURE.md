@@ -61,3 +61,5 @@ The external services that provide the LLM capabilities. The Core communicates w
 9.  **Core -> Client:** The Orchestrator sends the LLM's final response back to the Client.
 10. **Memory Update:** The Memory Manager saves the new interaction to the conversation history and potentially to long-term storage.
 11. **Render:** The Client displays the response to the user.
+
+© 2025 Olga Moreira, PhD. All rights reserved.
