@@ -19,3 +19,5 @@
 **Purpose:** Ollama installation helper
 **Usage:** `python scripts/install_ollama.py`
 **Platforms:** Linux, macOS, Windows support
+
+© 2025 Olga Moreira, PhD. All rights reserved.
