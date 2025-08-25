@@ -159,7 +159,9 @@ We welcome contributions! Please read our:
 
 ## License
 
-This project is licensed under the GNU Affero General Public License v3.0 - see the [LICENSE](LICENSE) file for details.
+This project’s **source code** is licensed under the [GNU Affero General Public License v3.0 (AGPLv3)](https://www.gnu.org/licenses/agpl-3.0.html), which allows use, modification, and redistribution under the same terms, including public web deployments.
+
+**Documentation, branding, and non-code assets** (e.g., logos, designs) are licensed under the [Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/), allowing sharing and adaptation with attribution but no commercial use.
 
 ## Disclaimer
 
@@ -211,3 +213,5 @@ This disclosure is offered in the interest of transparency and to acknowledge th
 See you in Valhalla,
 
 Olga M.
+
+© 2025 Olga Moreira, PhD. All rights reserved.
